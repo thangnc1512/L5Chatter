@@ -39,7 +39,7 @@ public class MessengerAdapter extends RecyclerView.Adapter<MessengerAdapter.View
 
     @Override
     public int getItemCount() {
-        return 0;
+        return messengers.size();
     }
 
 
